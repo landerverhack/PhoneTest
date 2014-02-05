@@ -46,10 +46,10 @@ var app = {
 
     console.log('Received Event: ' + id);
 
-    try {
-      navigator.notification.alert("The device is ready!");
-    } catch (e) {
-      document.getElementById('output').innerText = 'failed';
-    }
+    //try {
+    //  navigator.notification.alert("The device is ready!");
+    //} catch (e) {
+    //  document.getElementById('output').innerText = 'failed';
+    //}
   }
 };
